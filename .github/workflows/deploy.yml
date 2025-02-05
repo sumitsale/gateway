@@ -8,7 +8,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1
-  ECR_REPOSITORY: gateway
+  ECR_REPOSITORY: sumit-gateway-microservice
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:

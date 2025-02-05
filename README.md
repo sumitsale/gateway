@@ -63,10 +63,11 @@ The AWS credentials should have permissions to:
 
 ### AWS ECR Setup
 
-1. Create an ECR repository named 'gateway' in your AWS account:
+### AWS ECR Setup
+
+1. Create an ECR repository named 'sumit-gateway-microservice' in your AWS account:
    ```bash
-   aws ecr create-repository --repository-name gateway --region ap-south-1
-   ```
+   aws ecr create-repository --repository-name sumit-gateway-microservice --region ap-south-1
 
 2. The GitHub Actions workflow will automatically:
    - Build the Docker image
